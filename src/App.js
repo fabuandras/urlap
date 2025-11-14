@@ -1,4 +1,5 @@
 import './App.css';
+import Todo from './components/Todo';
 import Urlap from './components/Urlap';
 import { UrlapProvider } from './contexts/UrlapContext';
 
@@ -11,6 +12,7 @@ function App() {
       <article>
         <UrlapProvider>
           <Urlap />
+          <Todo />
         </UrlapProvider>
       </article>
     </div>
